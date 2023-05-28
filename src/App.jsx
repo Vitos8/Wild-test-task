@@ -2,7 +2,7 @@ import {useEffect } from "react";
 import { CURSOR_COLOR, } from "haspr-cursor";
 import "./App.scss";
 
-import Header from "./components/header/Header.jsx";
+import Header from "/src/components/Header/Header";
 import CallBtn from "./components/CallBtn/CallBtn";
 import Nav from "./components/Nav/Nav";
 import bgSvg from "./assets/icons/Bg.svg"
