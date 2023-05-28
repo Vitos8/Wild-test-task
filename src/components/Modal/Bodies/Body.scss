@@ -83,7 +83,7 @@
 }
 
 .menu-body {
-     padding: 80px 158px 40px 142px;
+     padding: 50px 158px 20px 142px;
 
      &__row {
           display: flex;
@@ -148,9 +148,5 @@
           &:hover{
                box-shadow: 0 0 25px -5px rgba(208,243,78,.7);
           }
-     }
-
-     &__link {
-
      }
 }
