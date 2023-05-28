@@ -1,0 +1,83 @@
+.consult-body {
+     padding: 120px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+
+     &__title {
+          font-family: "Visuelt Pro";
+          font-style: normal;
+          font-weight: 900;
+          font-size: 24px;
+          line-height: 35px;
+     }
+
+     &__form {
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          align-items: center;
+          width: 351px;
+          row-gap: 15px;
+     }
+
+     &__input {
+          padding: 18px 0px;
+          background: linear-gradient(
+                    318.96deg,
+                    rgba(0, 0, 0, 0.4) -1.9%,
+                    rgba(36, 36, 36, 0.4) 105%
+               ),
+               #272727;
+          background-blend-mode: soft-light, normal;
+          box-shadow: -53.1479px -53.1479px 106.296px rgba(51, 51, 51, 0.4),
+               17.716px 17.716px 70.8639px rgba(0, 0, 0, 0.6);
+          border-radius: 30px;
+          width: 100%;
+          font-family: "Visuelt Pro";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 18px;
+          text-align: center;
+          color: #c3c1c1;
+     }
+
+     &__btn {
+          width: 100%;
+     }
+}
+
+.call-body {
+     padding: 76px 26px 76px 36px;
+     display: flex;
+     flex-wrap: wrap;
+     gap: 15px;
+     width: 241px;
+
+     &__item {
+          background: linear-gradient(
+                    318.96deg,
+                    rgba(0, 0, 0, 0.4) -1.9%,
+                    rgba(36, 36, 36, 0.4) 105%
+               ),
+               #343434;
+          background-blend-mode: soft-light, normal;
+          box-shadow: -35.432px -35.432px 88.5799px rgba(17, 17, 17, 0.4),
+               17.716px 17.716px 53.1479px rgba(0, 0, 0, 0.6);
+          border-radius: 30px;
+		transition: all .4s ease;
+		cursor: pointer;
+
+		&:hover{
+			box-shadow: 0 0 20px 10px rgba(235,56,70,.4);
+		}
+          img {
+			width: 40px;
+			height: 40px;
+               margin: 0 auto;
+               padding: 28px 32px;
+          }
+     }
+}

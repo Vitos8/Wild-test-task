@@ -1,0 +1,43 @@
+.btn {
+     background: linear-gradient(320.66deg, #681217 14.75%, #bc333c 84.81%);
+     border: 1px solid #bc333c;
+     border-radius: 100px;
+     padding: 0px 0px;
+     width: 100%;
+     transition: all 0.3s ease;
+     position: relative;
+     cursor: pointer;
+     
+
+     &::before {
+          content: "";
+          position: absolute;
+          background: linear-gradient(180deg, #bc333c, #681217);
+          filter: blur(1px);
+          top: -3px;
+          right: -3px;
+          bottom: -3px;
+          left: -3px;
+          border-radius: 100px;
+     }
+     &:hover {
+          box-shadow: 0 0 20px 10px rgba(235, 56, 70, 0.4);
+     }
+
+     &__text {
+          position: relative;
+          z-index: 10;
+          display: flex;
+          justify-content: center;
+          background: linear-gradient(180deg, #681217, #bc333c);
+          border: 1px solid #bc333c;
+          box-sizing: border-box;
+          border-radius: 100px;
+          height: -webkit-fit-content;
+          height: -moz-fit-content;
+          height: fit-content;
+          padding: 0.5rem 2rem;
+          position: relative;
+          color: #fff;
+     }
+}
