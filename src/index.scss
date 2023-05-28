@@ -11,3 +11,172 @@ body, html {
   margin: 0;
   height: 100%;;
 }
+
+@font-face {
+  font-family: 'Visuelt Pro';
+  src: url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-Medium.eot');
+  src: local('VisueltPro-Medium'),
+      url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/') format('embedded-opentype'),
+      url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-Medium.woff2') format('woff2'),
+      url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-Medium.woff') format('woff'),
+      url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Visuelt Pro';
+  src: url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-Regular.eot');
+  src: local('VisueltPro-Regular'),
+      url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-Regular.eot?#iefix') format('embedded-opentype'),
+      url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-Regular.woff2') format('woff2'),
+      url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-Regular.woff') format('woff'),
+      url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Visuelt Pro';
+  src: url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-Bold.eot');
+  src: local('VisueltPro-Bold'),
+      url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-Bold.eot?#iefix') format('embedded-opentype'),
+      url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-Bold.woff2') format('woff2'),
+      url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-Bold.woff') format('woff'),
+      url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Visuelt Pro';
+  src: url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-ExtraLight.eot');
+  src: local('VisueltPro-ExtraLight'),
+      url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-ExtraLight.eot?#iefix') format('embedded-opentype'),
+      url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-ExtraLight.woff2') format('woff2'),
+      url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-ExtraLight.woff') format('woff'),
+      url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Visuelt Pro';
+  src: url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-Thin.eot');
+  src: local('VisueltPro-Thin'),
+      url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-Thin.eot?#iefix') format('embedded-opentype'),
+      url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-Thin.woff2') format('woff2'),
+      url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-Thin.woff') format('woff'),
+      url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Visuelt Pro';
+  src: url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-Italic.eot');
+  src: local('VisueltPro-Italic'),
+      url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-Italic.eot?#iefix') format('embedded-opentype'),
+      url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-Italic.woff2') format('woff2'),
+      url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-Italic.woff') format('woff'),
+      url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Visuelt Pro';
+  src: url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-ExtraLightItalic.eot');
+  src: local('VisueltPro-ExtraLightItalic'),
+      url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+      url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-ExtraLightItalic.woff2') format('woff2'),
+      url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-ExtraLightItalic.woff') format('woff'),
+      url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-ExtraLightItalic.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Visuelt Pro';
+  src: url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-BoldItalic.eot');
+  src: local('VisueltPro-BoldItalic'),
+      url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-BoldItalic.woff2') format('woff2'),
+      url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-BoldItalic.woff') format('woff'),
+      url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Visuelt Pro';
+  src: url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-Black.eot');
+  src: local('VisueltPro-Black'),
+      url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-Black.eot?#iefix') format('embedded-opentype'),
+      url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-Black.woff2') format('woff2'),
+      url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-Black.woff') format('woff'),
+      url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Visuelt Pro';
+  src: url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-MediumItalic.eot');
+  src: local('VisueltPro-MediumItalic'),
+      url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-MediumItalic.eot?#iefix') format('embedded-opentype'),
+      url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-MediumItalic.woff2') format('woff2'),
+      url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-MediumItalic.woff') format('woff'),
+      url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Visuelt Pro';
+  src: url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-Light.eot');
+  src: local('VisueltPro-Light'),
+      url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-Light.eot?#iefix') format('embedded-opentype'),
+      url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-Light.woff2') format('woff2'),
+      url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-Light.woff') format('woff'),
+      url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Visuelt Pro';
+  src: url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-BlackItalic.eot');
+  src: local('VisueltPro-BlackItalic'),
+      url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-BlackItalic.eot?#iefix') format('embedded-opentype'),
+      url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-BlackItalic.woff2') format('woff2'),
+      url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-BlackItalic.woff') format('woff'),
+      url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Visuelt Pro';
+  src: url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-LightItalic.eot');
+  src: local('VisueltPro-LightItalic'),
+      url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-LightItalic.eot?#iefix') format('embedded-opentype'),
+      url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-LightItalic.woff2') format('woff2'),
+      url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-LightItalic.woff') format('woff'),
+      url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Visuelt Pro';
+  src: url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-ThinItalic.eot');
+  src: local('VisueltPro-ThinItalic'),
+      url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-ThinItalic.eot?#iefix') format('embedded-opentype'),
+      url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-ThinItalic.woff2') format('woff2'),
+      url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-ThinItalic.woff') format('woff'),
+      url('/Projects/Wild-test-task/src/assets//fonts/Visuelt/VisueltPro-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+}
+

@@ -67,17 +67,90 @@
           box-shadow: -35.432px -35.432px 88.5799px rgba(17, 17, 17, 0.4),
                17.716px 17.716px 53.1479px rgba(0, 0, 0, 0.6);
           border-radius: 30px;
-		transition: all .4s ease;
-		cursor: pointer;
+          transition: all 0.4s ease;
+          cursor: pointer;
 
-		&:hover{
-			box-shadow: 0 0 20px 10px rgba(235,56,70,.4);
-		}
+          &:hover {
+               box-shadow: 0 0 20px 10px rgba(235, 56, 70, 0.4);
+          }
           img {
-			width: 40px;
-			height: 40px;
+               width: 40px;
+               height: 40px;
                margin: 0 auto;
                padding: 28px 32px;
           }
+     }
+}
+
+.menu-body {
+     padding: 80px 158px 40px 142px;
+
+     &__row {
+          display: flex;
+          flex-direction: column;
+          row-gap: 35px;
+     }
+
+     &__item {
+          display: flex;
+          align-items: center;
+          column-gap: 25px;
+          transition: all 0.4s ease;
+          cursor: pointer;
+
+          &:hover {
+               text-shadow: 0 0 25px rgba(235, 56, 70, 0.7);
+          }
+     }
+
+     &__number {
+          font-family: "Visuelt Pro";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 21px;
+          letter-spacing: 0.1em;
+     }
+
+     &__title {
+          font-family: "Visuelt Pro";
+          font-style: normal;
+          font-weight: 900;
+          font-size: 35px;
+          line-height: 45px;
+          letter-spacing: 0.1em;
+     }
+     &__item-red {
+          color: #eb3846;
+     }
+
+     &__social-row {
+          margin-top: 90px;
+          display: flex;
+          align-items: center;
+          justify-content: start;
+          column-gap: 21px;
+          margin-left: 30px;
+     }
+     
+     &__social {
+          position: relative;
+          width: 39px;
+          height: 39px;
+          border-radius: 7.08639px;
+          background: #171717;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          transition: all .4s ease;
+          cursor: pointer;
+
+          &:hover{
+               box-shadow: 0 0 25px -5px rgba(208,243,78,.7);
+          }
+     }
+
+     &__link {
+
      }
 }
