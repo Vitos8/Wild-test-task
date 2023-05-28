@@ -8,7 +8,7 @@ const Modal = ({ body, active, setActive }) => {
                className={`modal-overlay ${
                     !active ? "modal-overlay-hide" : ""
                }`}
-               //onClick={() => setActive(false)}
+               onClick={() => setActive(false)}
 			>
                <div
                     onClick={(e) => e.stopPropagation()}
